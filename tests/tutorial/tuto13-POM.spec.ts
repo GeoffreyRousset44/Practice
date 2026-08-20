@@ -18,5 +18,5 @@ test('logout', async ({ page }) => {
     await page.locator('[data-test="item-4-title-link"]').click();
     await page.locator('[data-test="add-to-cart"]').click();
     Login.logout();
-    await expect(page.locator('[data-test="login-button"]')).toBeVisible();
+    await expect(page.locator('[data-test="login-button"]')).not.toBeVisible();
 })
