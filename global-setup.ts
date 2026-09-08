@@ -2,7 +2,7 @@ import {chromium, Page, Browser, expect} from '@playwright/test';
 
 async function globalSetup () {
     //setup
-    const browser: Browser = await chromium.launch({headless: false});
+    const browser: Browser = await chromium.launch();
     const context = await browser.newContext();
     const page: Page = await context.newPage();
 
