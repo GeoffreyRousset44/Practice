@@ -1,5 +1,5 @@
 import {chromium, Page, Browser, expect} from '@playwright/test';
-
+/*
 async function globalSetup () {
     //setup
     const browser: Browser = await chromium.launch();
@@ -19,4 +19,4 @@ async function globalSetup () {
     await browser.close();
 }
 
-export default globalSetup;
+export default globalSetup;*/

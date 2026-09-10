@@ -14,9 +14,6 @@ test('API GET', async({request}) =>{
        // expect (text).toContain('Clavier')
 
         //console.log (await (response.json))
-
-
-
 })
 
 test('API POST', async ({request}) => {
